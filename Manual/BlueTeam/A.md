@@ -1,0 +1,15 @@
+# Websites
+- https://activestills.org/
+- https://www.dropbox.com/scl/fo/aj1sq1l1bs8db9h28shxu/h?rlkey=hkuq4tiumrjugw3jp293vwaw7&dl=0
+- https://hiddenpalestine.com/
+- https://www.jewishvoiceforpeace.org/resource/urgent-tell-congress-to-stop-fueling-violence/
+- https://actionnetwork.org/petitions/we-charge-genocide?source=direct_link&referrer=group-jewish-voice-for-peace-2
+- https://actionnetwork.org/letters/tell-congress-we-demand-a-permanent-ceasefire/
+- http://watanpalestine.komi.io/
+- https://www.palestinefilminstitute.org/en/pfp
+- https://www.justgiving.com/page/wearenotnumbers-
+- https://euromedmonitor.org/en
+- https://www.thenation.com/article/world/palestinians-claim-the-right-to-narrate/
+- https://www.palestinedeepdive.com/
+- https://palianswers.com/
+- https://imeu.org/article/quick-facts-the-palestinian-nakba

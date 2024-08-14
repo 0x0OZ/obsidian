@@ -1,0 +1,104 @@
+{
+  "main": {
+    "id": "768bea59922fa3c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "907edff93b108462",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Web Application Security/Web Client-Side/HTTP2 Request Smuggling.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e6586fdbffd071d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c711d1fdb0ba16bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "566674f25892bcef",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0cd9be0f141e7a91",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.5
+  },
+  "right": {
+    "id": "77a5fd0b7074d4b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "13de181b2806cb33",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "056cd48876386e67",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Web Application Security/Web Client-Side/HTTP2 Request Smuggling.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5,
+    "collapsed": true
+  },
+  "active": "907edff93b108462",
+  "lastOpenFiles": [
+    "Web Application Security/Web Client-Side/HTTP Request Smuggling.md",
+    "Web Application Security/Web Client-Side/HTTP2 Request Smuggling.md",
+    "Web Application Security/Web Client-Side/Desync Attacks.md",
+    "Web Application Security/Web Client-Side/Information Disclosure.md",
+    "Web Application Security/Web Client-Side/oAuth 2.0.md",
+    "Web Application Security/Web Client-Side/Authentication.md",
+    "Web Application Security/webs Notes & Technuqies/bypass WAF techniques - OLD.md",
+    "Web Application Security/webs Notes & Technuqies/An Important things to check.md",
+    "Web Application Security/API Pentesting/JSON Interoperability Vulnerabilities.md",
+    "Web Application Security/API Pentesting/API Pentesting.md"
+  ]
+}

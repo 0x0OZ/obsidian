@@ -1,0 +1,21 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "source",
+  "strictLineBreaks": false,
+  "showLineNumber": true,
+  "foldHeading": true,
+  "rightToLeft": false,
+  "vimMode": false,
+  "trashOption": "local",
+  "useMarkdownLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Tabloid",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
