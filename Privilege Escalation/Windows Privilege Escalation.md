@@ -4,7 +4,8 @@
 	- bloodhound - AD env
 	- PowerView
 	- PowerUp
-	- _mimikatz_
+	- mimikatz
+- [Wadcom](https://wadcoms.github.io/) Cheat sheet for windows offensive tools
 - remember to use **netcat** for reverse shells!
 - check users in local machine and domain
 - check groups in local machine and domain

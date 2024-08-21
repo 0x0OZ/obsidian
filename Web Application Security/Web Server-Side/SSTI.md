@@ -10,7 +10,8 @@ ${7*7}
 
 ```
 
-
+- Python command injection automation tool [commix](https://github.com/commixproject/commix/)
+	- SSTI automation PERFECT tool [Fenjing](https://github.com/Marven11/Fenjing/)
 ###### notes:
 - characters to find possible template injection `${{<%[%'"}}%\`
 - use operator `*` instead of `+` because it might be treated as normal text and give false negative

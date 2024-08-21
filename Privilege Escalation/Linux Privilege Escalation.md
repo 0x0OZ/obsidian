@@ -82,7 +82,7 @@ echo "" > "--checkpoint-action=exec=sh shell.sh"
 echo "" > "--checkpoint=1"
 ```
 ruby [priv esc](https://ihsansencan.github.io/privilege-escalation/linux/binaries/ruby.html)
-##### kernals archives:
+##### kernels archives:
 - [alpine](https://dl-cdn.alpinelinux.org/alpine/) linux archive
 - [voidlinux](https://repo-default.voidlinux.org/live/) archive
 - [nixos](https://releases.nixos.org/)

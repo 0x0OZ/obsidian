@@ -2,6 +2,7 @@
 
 #### check-list
 - [PayloadAllTheThings](https://gitlab.com/pentest-tools/PayloadsAllTheThings/-/blob/6bcd2e8a6a39d26a547a70d83dfebef4c2c6f801/Methodology%20and%20Resources/Active%20Directory%20Attack.md)
+- [S1ckB0y1337](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet)
 - check ldap for system/users informations
 - check smb for shares
 - check rpcbind for system/users informations

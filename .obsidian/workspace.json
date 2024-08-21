@@ -4,60 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "69c4c9a666da76de",
+        "id": "bee9214702e63947",
         "type": "tabs",
         "children": [
           {
-            "id": "8995f7b34cb059a7",
+            "id": "9de3191c2dc5dd82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "recon/Network Enumeration.md",
+                "file": "Web Application Security/Web Server-Side/SSTI.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "3096ec7d7f48751c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Privilege Escalation/Linux Privilege Escalation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad6973580f7b7ce2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Application Security/Web Server-Side/SSRF.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41e62c6e0795dd79",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "blockblock-imgs/Pasted image 20240603004606.png"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blockblock-imgs/Pasted image 20240603004606.png",
+                "file": "Web Application Security/Web Server-Side/SSTI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,20 +123,23 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "41e62c6e0795dd79",
+  "active": "9de3191c2dc5dd82",
   "lastOpenFiles": [
-    "README.md",
-    "blockblock-imgs/Pasted image 20240602222644.png",
-    "blockblock-imgs/Pasted image 20240603004606.png",
-    "recon/Network Enumeration.md",
-    "recon/Active Directory Enumeration.md",
     "Privilege Escalation/Windows Privilege Escalation.md",
     "Privilege Escalation/shells.md",
     "Privilege Escalation/Linux Privilege Escalation.md",
-    "recon/Passive-Active Recon.md",
+    "Privilege Escalation/Firewall Evasion.md",
+    "recon/Network Enumeration.md",
+    "recon/OSINT.md",
+    "README.md",
+    "Web Application Security/Web Server-Side/Directory Traversal.md",
+    "recon/Recon.md",
+    "recon/Active Directory Enumeration.md",
     "Web Application Security/Web Server-Side/SSTI.md",
     "Web Application Security/Web Server-Side/SSRF.md",
     "BinExp/Cheat Sheet.md",
+    "blockblock-imgs/Pasted image 20240603004606.png",
+    "blockblock-imgs/Pasted image 20240602222644.png",
     "Untitled.md",
     "Pasted image 20240627221701.png",
     "Pasted image 20240627221653.png",
@@ -184,7 +150,6 @@
     "Pasted image 20240627220310.png",
     "BlockBlock Writeup 1.md",
     "BlockBlock Writeup.md",
-    "Privilege Escalation/Firewall Evasion.md",
     "NetworkSec.md",
     "BlockBlock Writeup-old.pdf",
     "Manual/BugBounty.md",
@@ -193,13 +158,11 @@
     "Web Application Security/API Pentesting/JSON Interoperability Vulnerabilities.md",
     "2.pdf",
     "writeups/Yogasha Christmas/Welcome To Kara Org.md",
-    "recon/OSINT.md",
     "BinExp",
     "Web Application Security/API Pentesting/API Pentesting.md",
     "Web Application Security/Web Client-Side/business logic flows.md",
     "Web Application Security/Web Client-Side/ClickJacking.md",
     "Web Application Security/Web Client-Side/CORS.md",
-    "Web Application Security/Web Client-Side/CSRF Attack.md",
     "blockblock-imgs/Pasted image 20240604154517.png",
     "BlockBlock Writeup.pdf",
     "BlockBlock Writeup (2).pdf",
