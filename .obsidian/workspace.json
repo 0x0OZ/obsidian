@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bee9214702e63947",
+        "id": "b7c70ac5dc650d5c",
         "type": "tabs",
         "children": [
           {
-            "id": "9de3191c2dc5dd82",
+            "id": "8df92947d94fe915",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Application Security/Web Server-Side/SSTI.md",
+                "file": "recon/Network Enumeration.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Application Security/Web Server-Side/SSTI.md",
+                "file": "recon/Network Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,20 +123,23 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "9de3191c2dc5dd82",
+  "active": "8df92947d94fe915",
   "lastOpenFiles": [
+    "Pivoting/Active Directory Pivoting.md",
+    "Pivoting",
+    "Privilege Escalation/Untitled.md",
+    "recon/Recon.md",
+    "recon/Network Enumeration.md",
+    "recon/Active Directory Enumeration.md",
+    "Web Application Security/Web Server-Side/SSRF.md",
+    "Web Application Security/Web Server-Side/SSTI.md",
     "Privilege Escalation/Windows Privilege Escalation.md",
     "Privilege Escalation/shells.md",
     "Privilege Escalation/Linux Privilege Escalation.md",
     "Privilege Escalation/Firewall Evasion.md",
-    "recon/Network Enumeration.md",
     "recon/OSINT.md",
     "README.md",
     "Web Application Security/Web Server-Side/Directory Traversal.md",
-    "recon/Recon.md",
-    "recon/Active Directory Enumeration.md",
-    "Web Application Security/Web Server-Side/SSTI.md",
-    "Web Application Security/Web Server-Side/SSRF.md",
     "BinExp/Cheat Sheet.md",
     "blockblock-imgs/Pasted image 20240603004606.png",
     "blockblock-imgs/Pasted image 20240602222644.png",
@@ -161,8 +164,6 @@
     "BinExp",
     "Web Application Security/API Pentesting/API Pentesting.md",
     "Web Application Security/Web Client-Side/business logic flows.md",
-    "Web Application Security/Web Client-Side/ClickJacking.md",
-    "Web Application Security/Web Client-Side/CORS.md",
     "blockblock-imgs/Pasted image 20240604154517.png",
     "BlockBlock Writeup.pdf",
     "BlockBlock Writeup (2).pdf",

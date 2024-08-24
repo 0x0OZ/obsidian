@@ -9,6 +9,8 @@
 - PTR query for reverse lookup
 - [dnsx](https://github.com/projectdiscovery/dnsx) : `dns scanner - bruteforcer - extracter`
 - [puredns](https://github.com/d3mondev/puredns) : `dns resolver and subdomain bruteforing tool`
+- [netcraft](https://sitereport.netcraft.com/?url=www.kali.org)
+- [securityheaders](https://securityheaders.com/)
 ##### Search Engines : 
 - [shodan.io](https://www.shodan.io/)
 - [Censys](https://censys.com/)
