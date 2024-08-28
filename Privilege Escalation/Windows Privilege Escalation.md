@@ -1,11 +1,16 @@
 #### checklist
-- **use enumeration tools**
-	- winpeas
-	- bloodhound - AD env
-	- PowerView
-	- PowerUp
-	- mimikatz
+- [winpeas](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS)
+- [Seatbelt](https://github.com/GhostPack/Seatbelt)
+- [jaws](https://github.com/411Hall/JAWS)
+- bloodhound - AD env
+- PowerView
+- PowerUp
+- mimikatz
+- [GhostPacks](https://github.com/GhostPack)
+- [GhostPacks-compiled](https://github.com/r3motecontrol/Ghostpack-CompiledBinaries)
 - [Wadcom](https://wadcoms.github.io/) Cheat sheet for windows offensive tools
+```
+- use enumeration tools
 - remember to use **netcat** for reverse shells!
 - check users in local machine and domain
 - check groups in local machine and domain
@@ -23,6 +28,7 @@
 - Weak Registry permissions
 - writable StartUp Folders
 - Windows AutoLogon credentails
+```
 
 - exploiting privileges [show me your privs, and I will lead you to system](https://hackinparis.com/data/slides/2019/talks/HIP2019-Andrea_Pierini-Whoami_Priv_Show_Me_Your_Privileges_And_I_Will_Lead_You_To_System.pdf)
 - kernel exploits: https://github.com/ASR511-OO7/windows-kernel-exploits
@@ -30,6 +36,17 @@
 - AD cheatsheet : https://wadcoms.github.io/
 - sweet potato rule all [potato exploits](https://jlajara.gitlab.io/Potatoes_Windows_Privesc) 
 
+- Windows DLLs search order
+```
+1. The directory from which the application loaded.
+2. The system directory.
+3. The 16-bit system directory.
+4. The Windows directory. 
+5. The current directory.
+6. The directories that are listed in the PATH environment variable.
+
+No.5 becomes No.2 when safe DLL search mode is disabled
+```
 - command to-go list
 ```powershell
 Get-LocalUser
@@ -50,10 +67,14 @@ Get-History
 (Get-PSReadlineOption).HistorySavePath
 type C:\Users\dave\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 # windows creds object & winrm from powershell 
-$password = ConvertTo-SecureString "qwertqwertqwert123!!" -AsPlainText -Force
+$password = ConvertTo-SecureString "password123!" -AsPlainText -Force
 $cred = New-Object System.Management.Automation.PSCredential("daveadmin", $password)
 Enter-PSSession -ComputerName CLIENTWK220 -Credential $cred
-##
+## show unquoted services 
+Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}
+# show scheduleds
+Get-ScheduledTask
+schtasks /query
 ```
 
 - mimikatz

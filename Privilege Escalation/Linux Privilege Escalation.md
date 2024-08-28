@@ -28,7 +28,7 @@ stty raw -echo;fg ; reset
 stty columns 200 rows 200
 
 ```
-- env variables
+##### exports
 ```bash
 
 export TERM=linux
@@ -44,6 +44,16 @@ shopt -s autocd
 function cd(){
     builtin cd "$@" && ls
 }
+chpwd() ls
+chr() {
+  printf \\$(printf '%03o' $1)
+}
+
+ord() {
+  printf '%d' "'$1"
+}
+
+
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
