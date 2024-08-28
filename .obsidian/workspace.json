@@ -136,6 +136,8 @@
     "recon/Active Directory Enumeration.md",
     "Web Application Security/Web Server-Side/SSRF.md",
     "Web Application Security/Web Server-Side/SSTI.md",
+    "Privilege Escalation/Windows Privilege Escalation.md",
+    "Privilege Escalation/shells.md",
     "Privilege Escalation/Firewall Evasion.md",
     "recon/OSINT.md",
     "README.md",
