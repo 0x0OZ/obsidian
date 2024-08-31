@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privilege Escalation/Windows Privilege Escalation.md",
+                "file": "Web Application Security/Web Server-Side/SSTI.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privilege Escalation/Windows Privilege Escalation.md",
+                "file": "Web Application Security/Web Server-Side/SSTI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,18 +125,19 @@
   },
   "active": "8df92947d94fe915",
   "lastOpenFiles": [
-    "Web Application Security/Web Server-Side/SSTI.md",
-    "Privilege Escalation/Windows Privilege Escalation.md",
-    "Privilege Escalation/shells.md",
-    "Privilege Escalation/Untitled.md",
+    "Web Application Security/Web Server-Side/Upload file exploitation.md",
+    "Web Application Security/Web Server-Side/SSRF.md",
     "Privilege Escalation/Linux Privilege Escalation.md",
+    "Privilege Escalation/Windows Privilege Escalation.md",
+    "Pasted image 20240829235936.png",
+    "Privilege Escalation/Untitled.md",
+    "Privilege Escalation/shells.md",
     "recon/Network Enumeration.md",
     "Pivoting/Active Directory Pivoting.md",
     "Pivoting",
     "recon/Recon.md",
     "recon/Active Directory Enumeration.md",
-    "Web Application Security/Web Server-Side/SSRF.md",
-    "Privilege Escalation/shells.md",
+    "Web Application Security/Web Server-Side/SSTI.md",
     "Privilege Escalation/Firewall Evasion.md",
     "recon/OSINT.md",
     "README.md",
@@ -164,7 +165,6 @@
     "writeups/Yogasha Christmas/Welcome To Kara Org.md",
     "BinExp",
     "Web Application Security/API Pentesting/API Pentesting.md",
-    "blockblock-imgs/Pasted image 20240604154517.png",
     "BlockBlock Writeup.pdf",
     "BlockBlock Writeup (2).pdf",
     "3.pdf",

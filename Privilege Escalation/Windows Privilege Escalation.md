@@ -84,7 +84,8 @@ Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Ob
 # show scheduleds
 Get-ScheduledTask
 schtasks /query /fo LIST /v
-
+# Start A process in background
+Start-Process -WindowStyle Minimized -FilePath file.exe
 ```
 
 - mimikatz
