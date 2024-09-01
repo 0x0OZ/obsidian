@@ -84,7 +84,10 @@ Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Ob
 # show scheduleds
 Get-ScheduledTask
 schtasks /query /fo LIST /v
-
+# Enable RDP
+reg add "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
+gpupdate /force
+#
 ```
 
 - mimikatz

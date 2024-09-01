@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privilege Escalation/Windows Privilege Escalation.md",
+                "file": "Privilege Escalation/Linux Privilege Escalation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privilege Escalation/Windows Privilege Escalation.md",
+                "file": "Privilege Escalation/Linux Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,9 +125,10 @@
   },
   "active": "8df92947d94fe915",
   "lastOpenFiles": [
-    "Web Application Security/Web Server-Side/SSTI.md",
-    "Privilege Escalation/Windows Privilege Escalation.md",
+    "Privilege Escalation/Firewall Evasion.md",
     "Privilege Escalation/shells.md",
+    "Privilege Escalation/Windows Privilege Escalation.md",
+    "Web Application Security/Web Server-Side/SSTI.md",
     "Privilege Escalation/Untitled.md",
     "Privilege Escalation/Linux Privilege Escalation.md",
     "recon/Network Enumeration.md",
@@ -136,8 +137,6 @@
     "recon/Recon.md",
     "recon/Active Directory Enumeration.md",
     "Web Application Security/Web Server-Side/SSRF.md",
-    "Privilege Escalation/shells.md",
-    "Privilege Escalation/Firewall Evasion.md",
     "recon/OSINT.md",
     "README.md",
     "Web Application Security/Web Server-Side/Directory Traversal.md",
