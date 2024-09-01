@@ -57,8 +57,15 @@ ord() {
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
-```
 
+```
+- Tunneling/Port forwarding
+```sh
+# redirect all in (:2345) out to (:5432)
+socat -ddd TCP-LISTEN:2345,fork TCP:10.4.202.215:5432
+
+
+```
 ###### container enumerate
 ```bash
 grep 'docker\|lxc' /proc/1/cgroup
@@ -67,9 +74,16 @@ df   # filesystem usage
 ```
 ##### manual enumeration
 ```bash
+# os/version
+cat /etc/issue
+cat /etc/os-release
+
 # network socket
 ss -lntp # -n don't resolve service name
 ss -ltp
+ss -anp
+cat /etc/iptables/rules.v4
+routel
 # grep recursive 
 grep -i -R password .
 # find for files/folders owned by a user
@@ -79,10 +93,20 @@ lsattr
 # find suid/guid
 find / -perm -4000 -type f ! -path "/dev/*" 2>/dev/null
 find / -perm -2000 -type f ! -path "/dev/*" 2>/dev/null
-find / -user root -perm -4000 -exec ls -la {} \; 2> dev/null
+find / -user root -perm -4000 -exec ls -la {} \; 2> /dev/null
 find / -perm /6000 2>/dev/null
 # get caps
 getcap -r / 2>/dev/null | head -n 50 
+# others
+lsblk
+lsmod
+/sbin/modinfo libata
+# always monitor network in pentest
+sudo tcpdump -i lo -A | grep "pass"
+# cronjobs
+grep "CRON" /var/log/syslog
+# check AppArmor
+aa-status
 ```
 - uniqe exploitations
 ```bash
