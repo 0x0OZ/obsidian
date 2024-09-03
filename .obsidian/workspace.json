@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privilege Escalation/Linux Privilege Escalation.md",
+                "file": "recon/Network Enumeration.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6ba0b21236b0919",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "recon/Active Directory Enumeration.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privilege Escalation/Linux Privilege Escalation.md",
+                "file": "recon/Active Directory Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,27 +137,27 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "8df92947d94fe915",
+  "active": "a6ba0b21236b0919",
   "lastOpenFiles": [
-    "Privilege Escalation/shells.md",
-    "Privilege Escalation/Linux Privilege Escalation.md",
-    "Privilege Escalation/Firewall Evasion.md",
     "Privilege Escalation/Windows Privilege Escalation.md",
-    "Web Application Security/Web Server-Side/SSTI.md",
-    "Privilege Escalation/Untitled.md",
+    "README.md",
+    "Splunk exams policies.md",
     "recon/Network Enumeration.md",
+    "recon/Active Directory Enumeration.md",
+    "recon/Recon.md",
+    "Privilege Escalation/Linux Privilege Escalation.md",
+    "Web Application Security/Web Server-Side/SSTI.md",
+    "Privilege Escalation/shells.md",
+    "Privilege Escalation/Firewall Evasion.md",
+    "Privilege Escalation/Untitled.md",
     "Pivoting/Active Directory Pivoting.md",
     "Pivoting",
-    "recon/Recon.md",
-    "recon/Active Directory Enumeration.md",
     "Web Application Security/Web Server-Side/SSRF.md",
     "recon/OSINT.md",
-    "README.md",
     "Web Application Security/Web Server-Side/Directory Traversal.md",
     "BinExp/Cheat Sheet.md",
     "blockblock-imgs/Pasted image 20240603004606.png",
     "blockblock-imgs/Pasted image 20240602222644.png",
-    "Untitled.md",
     "Pasted image 20240627221701.png",
     "Pasted image 20240627221653.png",
     "Pasted image 20240627221117.png",

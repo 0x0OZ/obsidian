@@ -21,3 +21,23 @@ runas /netonly /user:support cmd.exe
 #### notes 
 - use `runas` to connect to domain using user credentials and run bloodhound or use the credentials in bloodhoud from python
 - lsass stores credentials that can be dumped using pypykatz
+
+```powershell
+# enumerate domain users and groups
+net user /domain
+net group /domain
+# find PDC
+[System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain()
+([adsi]'').distinguishedName
+```
+
+```powershell
+$PDC = [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain().PdcRoleOwner.Name
+$DN = ([adsi]'').distinguishedName 
+$LDAP = "LDAP://$PDC/$DN"
+
+$direntry = New-Object System.DirectoryServices.DirectoryEntry($LDAP)
+
+$dirsearcher = New-Object System.DirectoryServices.DirectorySearcher($direntry)
+$dirsearcher.FindAll()
+```
