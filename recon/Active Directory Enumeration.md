@@ -24,6 +24,8 @@ Get-NetUser -SPN #Kerberoastable users
 Get-NetComputer | select operatingsystem,dnshostname
 # Check if current user is logged in to a specific computer
 Get-NetSession -ComputerName web04
+# show AD computers
+Get-NetComputer | select dnshostname,operatingsystem,operatingsystemversion
 ```
 #### notes 
 - use `runas` to connect to domain using user credentials and run bloodhound or use the credentials in bloodhoud from python

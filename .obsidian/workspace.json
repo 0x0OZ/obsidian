@@ -139,11 +139,11 @@
   },
   "active": "a6ba0b21236b0919",
   "lastOpenFiles": [
+    "recon/Network Enumeration.md",
+    "recon/Active Directory Enumeration.md",
     "Privilege Escalation/Windows Privilege Escalation.md",
     "README.md",
     "Splunk exams policies.md",
-    "recon/Network Enumeration.md",
-    "recon/Active Directory Enumeration.md",
     "recon/Recon.md",
     "Privilege Escalation/Linux Privilege Escalation.md",
     "Web Application Security/Web Server-Side/SSTI.md",
