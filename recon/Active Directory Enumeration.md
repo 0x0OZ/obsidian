@@ -26,6 +26,13 @@ Get-NetComputer | select operatingsystem,dnshostname
 Get-NetSession -ComputerName web04
 # show AD computers
 Get-NetComputer | select dnshostname,operatingsystem,operatingsystemversion
+# Enumerate SPNs
+setspn -L iis_service
+Get-NetUser -SPN | select samaccountname,serviceprincipalname
+# enumerate ACLs
+Get-ObjectAcl -Identity "Management Department" | ? {$_.ActiveDirectoryRights -eq "GenericAll"} | select SecurityIdentifier,ActiveDirectoryRights
+# enum domain shares
+Find-DomainShare
 ```
 #### notes 
 - use `runas` to connect to domain using user credentials and run bloodhound or use the credentials in bloodhoud from python
@@ -88,3 +95,13 @@ $group.properties | select {$_.cn}, {$_.member}
  }
 ```
 
+- Interesting ACLs
+```
+GenericAll: Full permissions on object
+GenericWrite: Edit certain attributes on the object
+WriteOwner: Change ownership of the object
+WriteDACL: Edit ACE's applied to object
+AllExtendedRights: Change password, reset password, etc.
+ForceChangePassword: Password change for object
+Self (Self-Membership): Add ourselves to for example a group
+```
